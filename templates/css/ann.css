@@ -1,0 +1,190 @@
+ /* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #476ae8; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc; 
+}
+
+
+.form-padding{
+  padding:20px 130px;
+}
+
+ .a-success{
+          position: absolute;
+          right: 3%;
+          background: black;
+          color: #ccc;
+          top: 12%;
+          opacity: .6;
+          z-index: 20;
+          width: 300px;
+          float: right;
+    }
+.shadow{
+  box-shadow: 0 0 38px #ccc;
+}
+
+.login-btn{
+  width: 100%;
+      box-shadow: 0 0 38px #ccc;
+    border-radius: 0px;
+}
+.panel-login {
+        border-color: #ccc;
+        -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    }
+    .panel-login>.panel-heading {
+        color: #00415d;
+        background-color: #fff;
+        border-color: #fff;
+        text-align:center;
+    }
+    .panel-login>.panel-heading a{
+        text-decoration: none;
+        color: #666;
+        font-weight: bold;
+        font-size: 15px;
+        -webkit-transition: all 0.1s linear;
+        -moz-transition: all 0.1s linear;
+        transition: all 0.1s linear;
+    }
+    .panel-login>.panel-heading a.active{
+        color: #475ae8;
+        font-size: 18px;
+    }
+    .panel-login>.panel-heading hr{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        clear: both;
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+        background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+        background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+        background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    }
+
+    /***
+  Bootstrap Line Tabs by @keenthemes
+  A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+  Licensed under MIT
+  ***/
+
+  /* Tabs panel */
+  .tabbable-panel {
+    border:1px solid #eee;
+    padding: 10px;
+  }
+
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+
+  /* Below tabs mode */
+
+  .tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+  }
+  .tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d;
+  }
+  .tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+[data-letters]:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background:#476ae8;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  }
+
+  .admin{
+    position: absolute;margin-top:-22px;left: 10px; font-size: 10px !important;
+  }
